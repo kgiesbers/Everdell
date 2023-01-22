@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everdell", "Everdell\Everdell.csproj", "{675512A6-46E4-4AE2-83C7-DE4C56CF0121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{88ACF49A-A50F-4DAF-8268-CB6F6A7EFEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{6EA62E4F-BBA9-4630-AEED-3694EBE8AD49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675512A6-46E4-4AE2-83C7-DE4C56CF0121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675512A6-46E4-4AE2-83C7-DE4C56CF0121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675512A6-46E4-4AE2-83C7-DE4C56CF0121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675512A6-46E4-4AE2-83C7-DE4C56CF0121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ACF49A-A50F-4DAF-8268-CB6F6A7EFEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ACF49A-A50F-4DAF-8268-CB6F6A7EFEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ACF49A-A50F-4DAF-8268-CB6F6A7EFEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ACF49A-A50F-4DAF-8268-CB6F6A7EFEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA62E4F-BBA9-4630-AEED-3694EBE8AD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA62E4F-BBA9-4630-AEED-3694EBE8AD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA62E4F-BBA9-4630-AEED-3694EBE8AD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA62E4F-BBA9-4630-AEED-3694EBE8AD49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C94691EB-BF2A-43AE-BD43-B23C71A333B3}
+	EndGlobalSection
+EndGlobal
