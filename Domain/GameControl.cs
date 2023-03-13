@@ -8,6 +8,9 @@ namespace Domain
 {
     public class GameControl
     {
-        private List<Critter> critters= new List<Critter>();
+        private List<Player> players = new List<Player>();
+        private Deck deck;
+        private WorkerSpace[] workerSpaces = new WorkerSpace[10];
+
     }
 }

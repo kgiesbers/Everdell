@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    internal class GovernanceCritter : Critter , IGovernance
+    internal class ProductionCard : Card, IProduction
     {
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class ProsperityCritter : Critter , IProsperity
+    internal class TravelerCard : Card
     {
     }
 }
