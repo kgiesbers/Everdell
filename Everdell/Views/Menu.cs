@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Everdell.Views
 {
-    internal class GovernanceCard : Card, IGovernance
+    public class Menu
     {
 
     }

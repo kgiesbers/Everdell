@@ -9,6 +9,12 @@ namespace Domain
     public abstract class Card
     {
         private string name;
+        private int value;
+        private int berryCost;
+        private int twigCost;
+        private int pebbleCost;
+        private int resinCost;
+
         private enum type
         {
             Production,
@@ -25,12 +31,6 @@ namespace Domain
         {
             Critter,
             Construction
-        }
-        private int value;
-        private int berryCost;
-        private int twigCost;
-        private int pebbleCost;
-        private int resinCost;
-        
+        }        
     }
 }
